@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    font-family: 'Lato';
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-color: #00FFFF;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 36pt;
+    font-weight: bold;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+}
+
+.subtitulo {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.info-nasc-mort {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.artigo {
+    padding: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.img-artigo {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-artigo figure {
+    border: thin silver solid;;
+    padding: 5px;
+    background-color: #F0F8FF;
+}
+
+.img-artigo figcaption {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.img-artigo img {
+    border: thin silver solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dir {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    font-size: 18px;
+}
